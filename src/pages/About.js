@@ -22,12 +22,12 @@ const AboutUs = () => {
             <Header />
             <Breadcrumb 
                 image="images/bg/breadcrumb-bg.jpg"
-                title="We are an agency located in New York"
+                title="We are a third-party logistics (3PL) provider specializing in international logistics solutions."
                 content="Home"
                 contentTwo="About Us"
             />
             <AboutFour />
-            <Video />
+            {/* <Video /> */}
             <AboutFive />
             <TestimonialContainer classOption="bg-primary-blue" />
             <CallToActionTwo />

@@ -14,7 +14,7 @@ const Footer = () => {
                         <div className="footer-widget">
                             <div className="footer-logo">
                                 <Logo 
-                                    image={`${process.env.PUBLIC_URL}/images/logo/footer-logo.png`}
+                                    image={`${process.env.PUBLIC_URL}/images/logo/thetradeeaselogo.png`}
                                 />
                             </div>
                             <div className="footer-widget-content">
@@ -46,7 +46,9 @@ const Footer = () => {
 
                 <div className="row">
                     <div className="col">
-                        <p className="copyright">&copy; {new Date().getFullYear()} <strong>Exomac</strong> Made with <i className="fas fa-heart text-danger"></i> by <a href="#"><strong>HasThemes</strong></a>.</p>
+                        <p className="copyright">&copy; {new Date().getFullYear()} <strong>The Tradease</strong> 
+                        {/* Made with <i className="fas fa-heart text-danger"></i> by <a href="#"><strong>HasThemes</strong></a> */}
+                        .</p>
                     </div>
                 </div>
 

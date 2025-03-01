@@ -40,7 +40,7 @@ const Header = () => {
                         <div className="row justify-content-between align-items-center">
                             <div className="col-xl-2 col-auto order-0">
                                 <Logo 
-                                    image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
+                                    image={`${process.env.PUBLIC_URL}/images/logo/thetradeeaselogo.png`}
                                 />
                             </div>
                             <div className="col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-1">
@@ -49,7 +49,7 @@ const Header = () => {
                                 </div>
                                 <div className="header-search-area ms-xl-7 ms-0">
 
-                                    <HeaderSearch onClick={onSearchHandler}/>
+                                    {/* <HeaderSearch onClick={onSearchHandler}/> */}
                                 </div>
 
                                 <div className="header-mobile-menu-toggle d-xl-none ms-sm-2">
@@ -62,7 +62,7 @@ const Header = () => {
                             </div>
 
                             <div className="col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2">
-                                <Btn name='Buy Now' />
+                                {/* <Btn name='Buy Now' /> */}
                             </div>
                         </div>
                     </div>
